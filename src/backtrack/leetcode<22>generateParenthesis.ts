@@ -21,9 +21,7 @@ const generateParenthesis = (n: number): string[] => {
       backtrack(left, right + 1, str + ")");
     }
   };
-
   backtrack(0, 0, "");
-
   return result;
 };
 
